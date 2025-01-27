@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    width: fixed (1,440)px;
+height: 1322px;
+gap: 0px;
+background: #FFFFFF;
+
+
+
+}
+
+/* -----------------------navbar ---------------------------------------*/
+
+.navbar {
+margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem 2rem; */
+    background-color: #fff;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.logo-img {
+         width: 43px;
+         margin-left: 150px;
+    
+    
+}
+.menu{
+    width: Hug (421px)px;
+height: Hug (23px)px;
+top: 46px;
+
+gap: 48px;
+opacity: 0px;
+
+}
+.menu a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-family: Outfit;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.68px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-right: 70px;
+
+}
+
+.login-btn{
+    width: 83px;
+height: 20px;
+top: 47px;
+left: 1097.5px;
+gap: 0px;
+opacity: 0px;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: center;
+border: none;
+background-color: white;
+color: #FB5F66;
+
+}
+.register-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-family: Outfit;
+    width: Fixed (136px)px;
+    height: Fixed (52px)px;
+    top: 31px;
+    left: 1184px;
+    padding: 12px 40px 12px 42px;
+    gap: 10px;
+    border-radius: 8px ;
+    opacity: 0px;
+    
+}
+
+.register-btn {
+    background-color: #f05454;
+    color: #fff;
+    margin-right: 150px;
+}
+
+/*------------------------------ Hero Section-------------------------------- */
+.sl{
+    margin-top: 200px;
+    background-image: url("./sideimg.png");
+    width: 260px;
+height: 461.21px;
+margin-top: 91px;
+left: -172px;
+gap: 0px;
+opacity: 0px;
+
+}
+.sr{
+  margin-top: 200px;
+  background-image: url("./sideimg.png");
+  width: 260px;
+height: 461.21px;
+margin-top: -471px;
+margin-left: 1262px;
+gap: 0px;
+opacity: 0px;
+transform: scaleX(-1);
+
+}
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    width: 856px;
+height: 257px;
+margin-top: -406px;
+margin-left: 292px;
+gap: 24px;
+opacity: 0px;
+background-color:white;
+
+}
+
+
+
+
+#para{
+    color:#FB5F66;
+    font-family: Outfit;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.12px;
+text-align: center;
+ background: #FFF2F3;
+width: 161px;
+height: 15px;
+margin-top: -60px;
+margin-left: 35%;
+}
+.hero h1 {
+    /* font-size: 2.5rem;
+    margin-bottom: 1rem; */
+    font-family: Outfit;
+font-size: 44px;
+font-weight: 6000;
+line-height: 52.8px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #222222;
+
+
+}
+.hero p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #666;
+    font-family: Outfit;
+font-size: 18px;
+font-weight: 380;
+line-height: 28.8px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 856px;
+height: 58px;
+gap: 0px;
+opacity: 0px;
+color:  #414141;
+
+}
+.get-started-btn {
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    background-color: #f05454;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+/*----------------------------- features -------------------------- */
+
+/* Reset CSS */
+
+  
+  .features-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card2 card5";
+   
+width: 1200px;
+height: Hug (513px)px;
+margin-top: 26px;
+margin-left: 120px;
+gap: 40px;
+opacity: 0px;
+
+  }
+  .tutor{
+    width: 856px;
+height: Hug (43px)px;
+gap: 10px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.2px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 258px;
+margin-top: 20px;
+  }
+  .mentor{
+    font-size: 12px;
+font-weight: 400;
+line-height: 15.12px;
+    width: 177px;
+height: Hug (20px)px;
+padding: 10px 10px 10px 10px;
+gap: 7px;
+border-radius: 34px;
+opacity: 0px;
+background-color: #FFF2F3;
+color:  #FB5F66;
+margin-left: 40%;
+margin-top: 150px;
+
+  }
+  .feature-card {
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: Fixed (286.67px)px;
+height: Hug (192px)px;
+padding: 30px 0px 0px 0px;
+gap: 16px;
+border-radius: 10px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: #fdeced1a ;
+backdrop-filter: blur(844px);
+
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  h3{
+    width: 276px;
+height: 58px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+
+  }
+
+#h3{
+    width: 276px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:40px ;
+
+}
+ #img3{
+    margin-top: 40px;
+ }
+
+  .feature-card img {
+    width: 48px;
+    height: 48px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    
+  }
+  
+  .feature-card h3 {
+    width: 276px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    
+    margin-left:40px ;
+  }
+  
+  /* Positioning cards using grid areas */
+  .card1 {
+    grid-area: card1;
+    
+  }
+  
+  .card2 {
+    grid-area: card2;
+  }
+  
+  .card3 {
+    grid-area: card3;
+  }
+  
+  .card4 {
+    grid-area: card4;
+  }
+  
+  .card5 {
+    grid-area: card5;
+  }
+
+
+  
+  @media (max-width: 768px) {
+    .features-section {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5";
+    }
+  }
+  
